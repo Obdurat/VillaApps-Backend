@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // JS Version
+    "module": "commonjs",
+    "rootDir": "./src/", // App Root Folder
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist/", // Where build source will be placed
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "ts-node": { "transpileOnly": true }
+}
